@@ -12,7 +12,7 @@ component output="false"
 	public function init(required String inipath)
 	{
 		variables.instance = {
-			iniPath = expandPath(arguments.iniPath)
+			iniPath = arguments.iniPath
 		}
 
 		if (!fileExists(variables.instance.iniPath))
